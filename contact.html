@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Surendra Gurung</title>
+  <meta name="description" content="Get in touch with N. Karki about a web development project.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="images/FavIcon.jpg">
+</head>
+
+<body>
+
+  <div class="nav-outer">
+    <nav class="nav">
+      <a href="index.html" class="logo"><span class="mark">S</span> Surendra Gurung</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="PDF/Surendra-CV.pdf" class="btn btn-primary btn-sm" download="Surendra-Gurung-Resume.pdf">
+          <i class="fa-solid fa-file-pdf"></i> Download Resume
+        </a>
+        <button class="nav-toggle" aria-label="Toggle menu">≡</button>
+      </div>
+    </nav>
+  </div>
+  <div class="mobile-panel">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <section class="hero" style="padding-bottom: 10px;">
+      <div class="glow"></div>
+      <div class="wrap hero-inner">
+        <div class="eyebrow">Contact</div>
+        <h1>Let's build<br><span class="gradient-text">something reliable.</span></h1>
+        <p class="lead">Tell me about the project — stack, timeline, what it needs to do. I'll reply within a day or
+          two.</p>
+      </div>
+    </section>
+
+    <section style="padding-top: 10px;">
+      <div class="wrap contact-grid">
+        <form id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="message">Project details</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message →</button>
+          <p class="form-status" aria-live="polite"></p>
+        </form>
+
+        <div>
+          <dl class="contact-info">
+            <dt>Email</dt>
+            <dd><a href="mailto:amoshtamu25@gmail.com">amoshtamu25@gmail.com</a></dd>
+            <dt>Location</dt>
+            <dd>Kathmandu, Nepal</dd>
+            <dt>Elsewhere</dt>
+            <dd><a href="https://github.com/Suren-grg12">GitHub</a> / <a
+                href="https://www.linkedin.com/in/surendra-gurung-a97ab1424/">LinkedIn</a></dd>
+            <dt>Response time</dt>
+            <dd>1–2 business days</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Frequently asked questions</h2>
+        </div>
+        <div class="faq">
+          <div class="faq-item">
+            <button class="faq-q">What information do you need to start? <span class="plus">+</span></button>
+            <div class="faq-a">
+              <p>A short brief of what the site needs to do, any pages or features you already know you want, and a
+                rough timeline. We can refine scope together after that.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">Do you work with an existing codebase? <span class="plus">+</span></button>
+            <div class="faq-a">
+              <p>Yes — fixes, features, and refactors on an existing ASP.NET Core MVC or general web project are all in
+                scope, not just new builds.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">How do you handle project pricing? <span class="plus">+</span></button>
+            <div class="faq-a">
+              <p>Depends on scope — fixed price for well-defined projects, hourly for ongoing or open-ended work. We'll
+                agree on this before starting.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">Can you deploy and host the site too? <span class="plus">+</span></button>
+            <div class="faq-a">
+              <p>Yes — I can set up hosting and your domain, or hand off a deploy-ready project to your existing
+                infrastructure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-row">
+      <span>© 2026 Surendra Gurung</span>
+      <div class="footer-links">
+        <!-- Email (Gmail) -->
+        <a href="mailto:amoshtamu25@gmail.com" class="icon-link gmail" title="Email" target="_blank"
+          rel="noopener noreferrer">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/Suren-grg12" class="icon-link github" title="GitHub" target="_blank"
+          rel="noopener noreferrer">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/surendra-gurung-a97ab1424/" class="icon-link linkedin" title="LinkedIn"
+          target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+
+        <!-- YouTube (Optional placeholder - remove if not needed) -->
+        <a href="https://www.youtube.com/@Ardnerus-official" class="icon-link youtube" title="YouTube" target="_blank"
+          rel="noopener noreferrer">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
